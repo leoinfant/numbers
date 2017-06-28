@@ -6,7 +6,7 @@ public class Factorial {
 	Scanner n=new Scanner(System.in);	
 		int n2=n.nextInt();	
 		n1=1;
-		for(int i=0;i<n2;i++){
+		for(int i=1;i<=n2;i++){
 		n1=n1*i;
 		}
 		System.out.println(n1);
